@@ -33,7 +33,7 @@ const Home = () => {
       <div className="sticky font-kaisei">
         <Header />
         <TopImage src={image0} />
-        <section className="flex flex-col justify-center items-center lg:m-24">
+        <section className="flex flex-col justify-center items-center  lg:m-24">
           <TopOrder />
           <LinkBlock />
           <TitleRibon title={"”いっちゃが餃子”とは"} id={"no1"} />
