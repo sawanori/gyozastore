@@ -58,7 +58,7 @@ const Header = () => {
                             </li>
 
                             <li className="border-b md:border-none">
-                                <Scroll to="no4" smooth={true} duration={600} offset={-30}>
+                                <Scroll to="no5" smooth={true} duration={600} offset={-30}>
                                     <a className="block px-8 py-2 my-4 hover:bg-gray-600 rounded">
                                         購入はこちら
                                     </a>
