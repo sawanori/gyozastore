@@ -12,7 +12,8 @@ import Footer from '../components/Footer'
 import MainLayout from '../components/MainLayout'
 import ItemImage from '../components/ItemImage'
 
-import image0 from '../public/gyoza.jpg'
+import image01 from '../public/gyoza.jpg'
+import image02 from '../public/image0.png'
 import image1 from '../public/image1.jpg'
 import image2 from '../public/image2.jpg'
 import image3 from '../public/image3.jpg'
@@ -30,11 +31,15 @@ import image11 from '../public/image11.jpg'
 
 
 const Home = () => {
+  const props = {
+    src1: image01,
+    src2: image02,
+  }
   return (
     <>
       <div className="sticky font-kaisei">
         <Header />
-        <TopImage src={image0} />
+        <TopImage src={props} />
         <section className="flex flex-col justify-center items-center  lg:m-24">
           <TopOrder />
           <LinkBlock />
@@ -42,7 +47,7 @@ const Home = () => {
           <BasicLayout src={image1} content={'横浜で本格的な宮崎料理が食べれる「いっちゃが」を経営しております！宮崎はメディアでも取り上げられるほどの餃子の激戦区です。弊社製品の宮崎餃子はおうち時間でも美味しく楽しく過ごせるように食材にこだわっております。食べやすい大きさで作られているため、保存時の収納にもかさばらない大きさとなっております。ここでしか手に入らない逸品です♪'} />
           <TitleRibon title={"餃子へのこだわり"} id={"no2"} />
           <SubLayout title={'厳選宮崎ブランド豚肉使用'} src={image2} content={'当店人気の餃子は宇都宮を抜いて消費量2020年上半期日本一になった宮崎県の宮崎ギョーザです。人気を支えるのは厳選された宮崎ブランド豚肉を使用している点いあります。産地の方々の厳しいチェックのもと、送り出された最高級高産豚の旨みをご堪能ください。'} />
-          <SubLayout title={'豊かな土壌で育った宮崎野菜'} src={image3} content={'生にんにくは宮崎県佐土原町(株)MOMIKIさん使用、生ショウガも宮崎県佐土原町の福田農園さんを使用しています。生にんにくは宮崎県佐土原町(株)MOMIKIさん使用、生ショウガも宮崎県佐土原町の福田農園さんを使用しています。生にんにくは宮崎県佐土原町(株)MOMIKIさん使用、生ショウガも宮崎県佐土原町の福田農園さんを使用しています。'} />
+          <SubLayout title={'豊かな土壌で育った宮崎野菜'} src={image3} content={'生にんにくは宮崎県佐土原町(株)MOMIKIさん使用、生ショウガも宮崎県佐土原町の福田農園さんを使用しています。宮崎の豊な土壌で育った作物は旨味成分と栄養価たっぷり'} />
           <SubLayout title={'簡単に本場のハネを再現！'} src={image4} content={'フライパンを熱し油を適量ひきます、火を消して凍ったまま餃子を並べて強火で水３００ccを餃子の上から全体に注いでください、フタをして7分前後でパチパチと水分が飛んだら出来上がりです。「目安に10〜20個位で３００ccフライパン28センチ」'} />
           <SubLayout title={'お店の味をご家庭でも'} src={image5} content={'お店で提供しているものと同じ餃子を、旨味・鮮度を保つために作りたての状態から真空パックし、そこから急速冷凍。美味しさそのままにお店の味をご家庭へお届けいたします。'} />
 
