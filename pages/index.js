@@ -18,13 +18,16 @@ import image1 from '../public/image1.jpg'
 import image2 from '../public/image2.jpg'
 import image3 from '../public/image3.jpg'
 import image4 from '../public/image4.jpg'
-import image5 from '../public/image5.jpg'
+import image5 from '../public/01-8.jpg'
 import image6 from '../public/image6.jpeg'
 import image7 from '../public/image7.jpg'
 import image8 from '../public/image8.jpg'
 import image9 from '../public/image9.jpg'
 import image10 from '../public/image10.jpg'
 import image11 from '../public/image11.jpg'
+import image12 from '../public/item1.jpg'
+import image13 from '../public/item2.jpg'
+import image14 from '../public/item3.jpg'
 
 const url = "https://store.shopping.yahoo.co.jp/icchyaga/1003.html?sc_i=shp_pc_store-item_rcmditm"
 
@@ -63,17 +66,18 @@ const Home = () => {
 
           <TitleRibon title={"美味しい餃子の作り方"} id={"no4"} />
           <MainLayout src={image8} content={'フライパンを熱し油を適量ひきます、火を消し凍ったまま餃子を並べてください'} />
+
           <MainLayout src={image9} content={'火力を強火にして水３００ccを餃子の上から全体にまんべんなく注いでください'} />
           <MainLayout src={image10} content={'フタをして7分前後でパチパチと水分が飛んだら美味しい餃子の出来上がりです。'} />
           <TitleRibon title={"商品ラインナップ"} id={"no5"} />
-          <ItemImage src={image11} />
-          <TopOrder content={"3パック2,250円税込(10個入/パック)"} />
+          <ItemImage src={image12} />
+          <TopOrder content={"3パック2,250円税込(合計30個)"} />
           <LinkBlock />
-          <ItemImage src={image11} />
-          <TopOrder content={"お得用6パック3,700円税込(10個入/パック)"} />
+          <ItemImage src={image13} />
+          <TopOrder content={"お得用6パック3,700円税込(合計60個)"} />
           <LinkBlock />
-          <ItemImage src={image11} />
-          <TopOrder content={"お得用12パック6,350円税込(10個入/パック)"} />
+          <ItemImage src={image14} />
+          <TopOrder content={"お得用12パック6,350円税込(120個)"} />
           <LinkBlock />
         </section>
         <Footer />
