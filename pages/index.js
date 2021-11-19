@@ -12,7 +12,7 @@ import Footer from '../components/Footer'
 import MainLayout from '../components/MainLayout'
 import ItemImage from '../components/ItemImage'
 
-import image0 from '../public/image0.png'
+import image0 from '../public/gyoza.jpg'
 import image1 from '../public/image1.jpg'
 import image2 from '../public/image2.jpg'
 import image3 from '../public/image3.jpg'

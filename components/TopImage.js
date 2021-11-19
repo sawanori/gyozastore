@@ -13,8 +13,8 @@ const TopImage = ({ src }) => {
       <Image
         src={src}
         layout="responsive"
-        width={1000}
-        height={600}
+        width={1100}
+        height={2500}
       />
     </div>
   )
