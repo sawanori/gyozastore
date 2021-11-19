@@ -63,12 +63,14 @@ const Home = () => {
           </div>
         </section>
         <section className="flex flex-col justify-center items-center lg:m-24" id={"no4"}>
-
           <TitleRibon title={"美味しい餃子の作り方"} id={"no4"} />
           <MainLayout src={image8} content={'フライパンを熱し油を適量ひきます、火を消し凍ったまま餃子を並べてください'} />
-
           <MainLayout src={image9} content={'火力を強火にして水３００ccを餃子の上から全体にまんべんなく注いでください'} />
           <MainLayout src={image10} content={'フタをして7分前後でパチパチと水分が飛んだら美味しい餃子の出来上がりです。'} />
+
+          <div className="aspect-w-16 aspect-h-9">
+            <iframe width="360" height="200" src="https://www.youtube.com/embed/7zbvx6ATKa8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+          </div>
           <TitleRibon title={"商品ラインナップ"} id={"no5"} />
           <ItemImage src={image12} />
           <TopOrder content={"3パック2,250円税込(合計30個)"} />
