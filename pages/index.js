@@ -26,7 +26,7 @@ import image9 from '../public/image9.jpg'
 import image10 from '../public/image10.jpg'
 import image11 from '../public/image11.jpg'
 
-
+const url = "https://store.shopping.yahoo.co.jp/icchyaga/1003.html?sc_i=shp_pc_store-item_rcmditm"
 
 
 
@@ -41,8 +41,8 @@ const Home = () => {
         <Header />
         <TopImage src={props} />
         <section className="flex flex-col justify-center items-center  lg:m-24">
-          <TopOrder />
-          <LinkBlock />
+          <TopOrder content={"当店自慢の餃子を召し上がれ"} />
+          <LinkBlock href={url} />
           <TitleRibon title={"”いっちゃが餃子”とは"} id={"no1"} />
           <BasicLayout src={image1} content={'横浜で本格的な宮崎料理が食べれる「いっちゃが」を経営しております！宮崎はメディアでも取り上げられるほどの餃子の激戦区です。弊社製品の宮崎餃子はおうち時間でも美味しく楽しく過ごせるように食材にこだわっております。食べやすい大きさで作られているため、保存時の収納にもかさばらない大きさとなっております。ここでしか手に入らない逸品です♪'} />
           <TitleRibon title={"餃子へのこだわり"} id={"no2"} />
@@ -67,7 +67,13 @@ const Home = () => {
           <MainLayout src={image10} content={'フタをして7分前後でパチパチと水分が飛んだら美味しい餃子の出来上がりです。'} />
           <TitleRibon title={"商品ラインナップ"} id={"no5"} />
           <ItemImage src={image11} />
-          <TopOrder />
+          <TopOrder content={"3パック2,250円税込(10個入/パック)"} />
+          <LinkBlock />
+          <ItemImage src={image11} />
+          <TopOrder content={"お得用6パック3,700円税込(10個入/パック)"} />
+          <LinkBlock />
+          <ItemImage src={image11} />
+          <TopOrder content={"お得用12パック6,350円税込(10個入/パック)"} />
           <LinkBlock />
         </section>
         <Footer />
