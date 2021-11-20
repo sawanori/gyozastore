@@ -19,13 +19,16 @@ const TopImage = (props) => {
           height={2500}
         />
       </div>
-      <div className="text-3xl invisible sm:visible md:visible lg:visible xl:visible">
-        <Image
-          src={props.src.src2}
-          layout="responsive"
-          width={1200}
-          height={800}
-        />
+
+      <div className="h-10  hidden sm:inline-block">
+        <div className="w-screen">
+          <Image
+            src={props.src.src2}
+            layout="responsive"
+            width={1200}
+            height={800}
+          />
+        </div>
       </div>
     </section >
   )
