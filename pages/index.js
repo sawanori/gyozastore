@@ -28,11 +28,17 @@ import image11 from '../public/image11.jpg'
 import image12 from '../public/item1.jpg'
 import image13 from '../public/item2.jpg'
 import image14 from '../public/item3.jpg'
+import image15 from '../public/item4.jpg'
+import image16 from '../public/item5.jpg'
+import image17 from '../public/item6.jpg'
 
 const url = "https://store.shopping.yahoo.co.jp/icchyaga/b5dcbaeaa5.html#sideNaviItems"
 const url1 = "https://store.shopping.yahoo.co.jp/icchyaga/1001.html"
 const url2 = "https://store.shopping.yahoo.co.jp/icchyaga/1002.html"
 const url3 = "https://store.shopping.yahoo.co.jp/icchyaga/1003.html"
+const url4 = "https://store.shopping.yahoo.co.jp/icchyaga/1004.html"
+const url5 = "https://store.shopping.yahoo.co.jp/icchyaga/1005.html"
+const url6 = "https://store.shopping.yahoo.co.jp/icchyaga/1003.html"
 
 
 
@@ -84,6 +90,15 @@ const Home = () => {
           <ItemImage src={image14} />
           <TopOrder content={"お得用12パック6,350円税込(120個)"} />
           <LinkBlock url={url3} />
+          <ItemImage src={image15} />
+          <TopOrder content={"ギョウザにんにく2倍（3パック）2,250円税込(10個)"} />
+          <LinkBlock url={url4} />
+          <ItemImage src={image16} />
+          <TopOrder content={"しそ入りギョウザ（3パック）2,250円税込(10個)"} />
+          <LinkBlock url={url5} />
+          <ItemImage src={image17} />
+          <TopOrder content={"にんにくなし（3パック）2,250円税込(10個)"} />
+          <LinkBlock url={url5} />
         </section>
         <Footer />
       </div>
