@@ -96,9 +96,7 @@ const Home = () => {
           <ItemImage src={image16} />
           <TopOrder content={"しそ入りギョウザ（3パック）2,250円税込(10個)"} />
           <LinkBlock url={url5} />
-          <ItemImage src={image17} />
-          <TopOrder content={"にんにくなし（3パック）2,250円税込(10個)"} />
-          <LinkBlock url={url5} />
+
         </section>
         <Footer />
       </div>
