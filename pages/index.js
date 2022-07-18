@@ -24,13 +24,13 @@ import image7 from '../public/image7.jpg'
 import image8 from '../public/image8.jpg'
 import image9 from '../public/image9.jpg'
 import image10 from '../public/image10.jpg'
-import image11 from '../public/image11.jpg'
+import image11 from '../public/media.jpeg'
 import image12 from '../public/item1.jpg'
 import image13 from '../public/item2.jpg'
 import image14 from '../public/item3.jpg'
 import image15 from '../public/item4.jpg'
 import image16 from '../public/item5.jpg'
-import image17 from '../public/item6.jpg'
+
 
 const url = "https://store.shopping.yahoo.co.jp/icchyaga/b5dcbaeaa5.html#sideNaviItems"
 const url1 = "https://store.shopping.yahoo.co.jp/icchyaga/1001.html"
@@ -53,7 +53,7 @@ const Home = () => {
         <Header />
         <TopImage src={props} />
         <section className="flex flex-col justify-center items-center  lg:m-24">
-          <TopOrder content={"当店自慢の餃子を召し上がれ"} />
+          <TopOrder src={image9} content={"TBS系列の番組で紹介されました"} />
           <LinkBlock url={url} />
           <TitleRibon title={"”いっちゃが餃子”とは"} id={"no1"} />
           <BasicLayout src={image1} content={'横浜で本格的な宮崎料理が食べられる「いっちゃが」を経営しております！宮崎はメディアでも取り上げられるほどの餃子の激戦区です。弊社製品の宮崎餃子はおうち時間でも美味しく楽しく過ごせるように食材にこだわっております。食べやすい大きさで作られているため、保存時の収納にもかさばらない大きさとなっております。ここでしか手に入らない逸品です♪'} />
@@ -68,7 +68,8 @@ const Home = () => {
           <div className="m-8 text-center lg:m-24">
             <h1 className="p-8 text-4xl" id={"no3"}>全ては、横浜の一軒の居酒屋から</h1>
             <BasicLayout src={image6} content={'横浜で本格宮崎料理「いっちゃが」を営んでおります。ムービル前の路地を進むと出現する隠れ家。宮崎出身のオヤジによる料理＆集めに集めた銘酒を自信を持ってご提供。長年、地元の方々からご愛顧いただきスタッフはもちろん常連さんとも仲良くなれる気さくな大人が夜な夜な集う、温かいお店です。'} />
-            <ReverseBasicLayout src={image7} content={'しかしコロナ禍にてお店の売上が壊滅的な状況であります。ただ、「ピンチはチャンス」と捉えて今まで着手できていなかったEC販売の部分に力を入れていきます。当店で長年人気だった宮崎餃子をご自宅でもお楽しみいただけるように冷凍の商品として販売！また企業に対してのOEMや卸販売も開始(ご興味をお持ちの企業様、ぜひお問い合わせください)様々な挑戦を通して皆様に食の喜びをお届けします。'} />
+            <ReverseBasicLayout src={image7} content={'しかしコロナ禍にてお店の売上が壊滅的な状況であります。ただ、「ピンチはチャンス」と捉えて今まで着手できていなかったEC販売の部分に力を入れていきます。当店で長年人気だった宮崎餃子をご自宅でもお楽しみいただけるように冷凍の商品として販売！'} />
+            <BasicLayout src={image11} content={'日々の努力の甲斐もありTBSテレビ『Nスタ』『THE TIME』で取材・特集されました。また企業に対してのOEMや卸販売も開始(ご興味をお持ちの企業様、ぜひお問い合わせください)様々な挑戦を通して皆様に食の喜びをお届けします。'} />
           </div>
         </section>
         <section className="flex flex-col justify-center items-center lg:m-24" id={"no4"}>
